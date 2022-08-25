@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text&family=DynaPuff&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-image: radial-gradient(circle, #e9fbf7, #d8fbf4, #c5fbf1, #b2faee, #9cfaeb, #83ede4, #67dfde, #48d2d9, #27b4ca, #1197b8, #117aa2, #1b5e89);
+    padding: 30px 40px;
+    color: rgb(83, 78, 127);
+    text-align: center;
+  }
+  
+  h1 {
+    font-family: 'DynaPuff', cursive;
+    letter-spacing: 2px;
+    margin-bottom: 15px;;
+  }
+  
+  input {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+      width: 100%;
+      font-size: 14px;
+      font-family: 'DynaPuff', cursive;
+  }
+  
+  .details {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+      font-family: 'DynaPuff', cursive;
+  }
+  .assign {
+      font-family: 'DynaPuff', cursive;
+  }
+  .btn {
+      font-family: 'DynaPuff', cursive;
+  }

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/js/all.min.js" integrity="sha512-8pHNiqTlsrRjVD4A/3va++W1sMbUHwWxxRPWNyVlql3T+Hgfd81Qc6FC5WMXDC+tSauxxzp1tgiAvSKFu1qIlA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
+    <title>My ToDo List</title>
+</head>
+<body>
+    <header>
+        <h1>To Do List</h1>
+        <input type="text"  id="newTask" class="form-control" placeholder="New task..."/>
+        <button id="addButton" class="btn btn-info" onclick="addSth()">Add</button>
+    </header>
+    
+    <div class="container">
+        <div class="details">
+            <p>Total: <span id="totalNum">0</span></p>
+            <p>Completed: <span id="doneNum">0</span></p>
+        </div>
+        <div class="assign">
+            <div>
+                <div class="row">
+                  <div class="col">
+                    ID
+                  </div>
+                  <div class="col">
+                    Task
+                  </div>
+                  <div class="col">
+                    Done
+                  </div>
+                  <div class="col">
+                    Delete
+                  </div>
+                </div>
+            </div>
+            <div class="container listaEvento" id="taskSheet"></div>
+        </div>
+    </div>
+    
+    <script src="./assets/js/main.js"></script>
+    
+</body>
+</html>
